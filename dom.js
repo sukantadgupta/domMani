@@ -20,16 +20,24 @@ title.style.fontWeight = "bold";
 //     items[i].style.fontWeight = "bold";
 // }
 
-let items = document.getElementsByTagName("li");
-// items[2].style.backgroundColor = "green";
+// let items = document.getElementsByTagName("li");
+// // items[2].style.backgroundColor = "green";
 
 
-for(let i = 0; i < items.length; i++){
-    items[i].style.fontWeight = "bold";
-}
+// for(let i = 0; i < items.length; i++){
+//     items[i].style.fontWeight = "bold";
+// }
 
-var li_five = document.getElementsByClassName("list-five")[0];
-li_five.style.backgroundColor = "green";
+// var li_five = document.getElementsByClassName("list-five")[0];
+// li_five.style.backgroundColor = "green";
+
+let items = document.querySelectorAll("li");
+
+// console.log(items);
+items[1].style.backgroundColor = "green";
+items[2].style.display = "none";
+
+
 
 
 
